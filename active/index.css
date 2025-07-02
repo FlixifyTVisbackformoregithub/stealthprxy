@@ -1,12 +1,9 @@
-/* Custom CSS for black theme */
 body {
   background-color:#120924;
   color: #fff;
   margin: 0;
   padding: 0;
 }
-
-
 
 #header {
   background-color: #120924;
@@ -111,13 +108,13 @@ a{
 
 #canvas {
     display: block;
-    position: fixed;  /* Cover the viewport */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100vw;  /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
+    width: 100vw;
+    height: 100vh;
     
-    pointer-events: none; /* Prevents canvas from interfering with interactions */
+    pointer-events: none;
 }
 
 
