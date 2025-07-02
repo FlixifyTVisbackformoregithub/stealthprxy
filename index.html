@@ -186,8 +186,8 @@
 
       const isUrl = /^[^\s]+\.[^\s]+/.test(input);
       const urlToLoad = isUrl
-        ? `/active/embed.html?url=${encodeURIComponent(input.startsWith("http") ? input : "https://" + input)}`
-        : `/active/embed.html?url=https://duckduckgo.com/${encodeURIComponent(input)}`;
+        ? `active/embed.html?url=${encodeURIComponent(input.startsWith("http") ? input : "https://" + input)}`
+        : `active/embed.html?url=https://duckduckgo.com/${encodeURIComponent(input)}`;
 
       window.location.href = urlToLoad;
     });
