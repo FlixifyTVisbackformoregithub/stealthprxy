@@ -1,11 +1,4 @@
 "use strict";
-
-/**
- * Convert input to a URL or search query.
- * @param {string} input
- * @param {string} template Template for a search query.
- * @returns {string} Fully qualified URL
- */
 function search(input, template) {
   if (!input) return template.replace("%s", "");
 
