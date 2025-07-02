@@ -1,7 +1,7 @@
 const { xor } = Ultraviolet.codec;
 
 const uvConfig = {
-    prefix: '/active/go/pxy/mode0/query/',
+    prefix: '/active/go/',
     bare: 'https://petezahgames.com/bare/',
     encodeUrl: xor.encode,
     decodeUrl: xor.decode,
