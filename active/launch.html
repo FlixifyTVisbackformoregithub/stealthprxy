@@ -5,8 +5,6 @@
   <title>Loading - Embed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Preconnect and load font fast -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet" />
@@ -55,7 +53,7 @@
       iframe.src = url;
       iframe.onload = () => {
         iframe.style.display = "block";
-        loader.remove(); // fully remove from DOM
+        loader.remove();
         document.title = "Embeddr v1";
       };
     } else {
