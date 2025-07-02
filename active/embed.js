@@ -5,7 +5,7 @@
   if (!url) return console.error("❌ No URL provided");
 
   try {
-    const destination = new URL(url).toString(); // Validates and normalizes
+    const destination = new URL(url).toString();
     await registerSW();
     location.href = __uv$config.prefix + __uv$config.encodeUrl(destination);
   } catch (err) {
